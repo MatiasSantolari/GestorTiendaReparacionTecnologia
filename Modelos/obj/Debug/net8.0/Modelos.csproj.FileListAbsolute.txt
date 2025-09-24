@@ -1,0 +1,11 @@
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Modelos\bin\Debug\net8.0\Modelos.deps.json
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Modelos\bin\Debug\net8.0\Modelos.dll
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Modelos\bin\Debug\net8.0\Modelos.pdb
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Modelos\obj\Debug\net8.0\Modelos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Modelos\obj\Debug\net8.0\Modelos.AssemblyInfoInputs.cache
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Modelos\obj\Debug\net8.0\Modelos.AssemblyInfo.cs
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Modelos\obj\Debug\net8.0\Modelos.csproj.CoreCompileInputs.cache
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Modelos\obj\Debug\net8.0\Modelos.dll
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Modelos\obj\Debug\net8.0\refint\Modelos.dll
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Modelos\obj\Debug\net8.0\Modelos.pdb
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Modelos\obj\Debug\net8.0\ref\Modelos.dll

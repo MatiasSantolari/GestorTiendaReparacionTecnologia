@@ -1,0 +1,11 @@
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Utils\bin\Debug\net8.0-windows\Utils.deps.json
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Utils\bin\Debug\net8.0-windows\Utils.dll
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Utils\bin\Debug\net8.0-windows\Utils.pdb
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Utils\obj\Debug\net8.0-windows\Utils.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Utils\obj\Debug\net8.0-windows\Utils.AssemblyInfoInputs.cache
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Utils\obj\Debug\net8.0-windows\Utils.AssemblyInfo.cs
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Utils\obj\Debug\net8.0-windows\Utils.csproj.CoreCompileInputs.cache
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Utils\obj\Debug\net8.0-windows\Utils.dll
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Utils\obj\Debug\net8.0-windows\refint\Utils.dll
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Utils\obj\Debug\net8.0-windows\Utils.pdb
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Utils\obj\Debug\net8.0-windows\ref\Utils.dll
