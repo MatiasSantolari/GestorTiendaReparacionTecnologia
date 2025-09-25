@@ -17,3 +17,4 @@ D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Datos\obj\Debug\net8.0\Da
 D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Datos\obj\Debug\net8.0\ref\Datos.dll
 D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Datos\bin\Debug\net8.0\Seguridad.dll
 D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Datos\bin\Debug\net8.0\Seguridad.pdb
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Datos\obj\Debug\net8.0\Datos.sourcelink.json

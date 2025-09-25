@@ -9,3 +9,4 @@ D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Modelos\obj\Debug\net8.0\
 D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Modelos\obj\Debug\net8.0\refint\Modelos.dll
 D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Modelos\obj\Debug\net8.0\Modelos.pdb
 D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Modelos\obj\Debug\net8.0\ref\Modelos.dll
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Modelos\obj\Debug\net8.0\Modelos.sourcelink.json

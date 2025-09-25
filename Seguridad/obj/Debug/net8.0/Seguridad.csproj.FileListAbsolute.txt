@@ -13,3 +13,4 @@ D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Seguridad\bin\Debug\net8.
 D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Seguridad\bin\Debug\net8.0\Modelos.pdb
 D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Seguridad\obj\Debug\net8.0\Seguridad.csproj.AssemblyReference.cache
 D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Seguridad\obj\Debug\net8.0\Seguridad.csproj.Up2Date
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Seguridad\obj\Debug\net8.0\Seguridad.sourcelink.json

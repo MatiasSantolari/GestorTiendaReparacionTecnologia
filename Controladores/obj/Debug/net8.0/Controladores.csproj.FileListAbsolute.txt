@@ -17,3 +17,4 @@ D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Controladores\obj\Debug\n
 D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Controladores\obj\Debug\net8.0\ref\Controladores.dll
 D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Controladores\bin\Debug\net8.0\Seguridad.dll
 D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Controladores\bin\Debug\net8.0\Seguridad.pdb
+D:\Programacion net\Proyectos\GestorTiendaReparacionPC\Controladores\obj\Debug\net8.0\Controladores.sourcelink.json
