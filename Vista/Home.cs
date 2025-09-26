@@ -67,7 +67,7 @@ namespace GestorTiendaReparacionPC
             if (dgvTrabajosPendientes.Columns[e.ColumnIndex].Name == "btnVerEmpleados")
             {
                 // Abre el formulario con los datos de ese registro
-                Empleados empleadoForm = new Empleados(idTrabajo);
+                AgregarEmpleadoForm empleadoForm = new AgregarEmpleadoForm(idTrabajo);
                 if (empleadoForm.ShowDialog() == DialogResult.OK) Home_Load(null, null); // recarga la grilla
             }
             if (dgvTrabajosPendientes.Columns[e.ColumnIndex].Name == "btnEditar")

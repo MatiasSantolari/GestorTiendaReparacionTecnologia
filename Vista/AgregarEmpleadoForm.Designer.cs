@@ -53,24 +53,26 @@
             cbEmpleados.FormattingEnabled = true;
             cbEmpleados.Location = new Point(12, 13);
             cbEmpleados.Name = "cbEmpleados";
-            cbEmpleados.Size = new Size(511, 23);
+            cbEmpleados.Size = new Size(665, 23);
             cbEmpleados.TabIndex = 1;
             // 
             // dgvTareasDeEmpleados
             // 
             dgvTareasDeEmpleados.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            dgvTareasDeEmpleados.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvTareasDeEmpleados.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             dgvTareasDeEmpleados.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvTareasDeEmpleados.Location = new Point(200, 42);
+            dgvTareasDeEmpleados.Location = new Point(201, 42);
             dgvTareasDeEmpleados.Name = "dgvTareasDeEmpleados";
-            dgvTareasDeEmpleados.Size = new Size(472, 378);
+            dgvTareasDeEmpleados.Size = new Size(636, 378);
             dgvTareasDeEmpleados.TabIndex = 2;
             // 
             // btnVerTareasEmpleado
             // 
             btnVerTareasEmpleado.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            btnVerTareasEmpleado.Location = new Point(529, 12);
+            btnVerTareasEmpleado.Location = new Point(682, 12);
             btnVerTareasEmpleado.Name = "btnVerTareasEmpleado";
-            btnVerTareasEmpleado.Size = new Size(143, 23);
+            btnVerTareasEmpleado.Size = new Size(155, 23);
             btnVerTareasEmpleado.TabIndex = 3;
             btnVerTareasEmpleado.Text = "Ver Tareas De Empleado";
             btnVerTareasEmpleado.UseVisualStyleBackColor = true;
@@ -79,7 +81,7 @@
             // btnAgregar
             // 
             btnAgregar.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            btnAgregar.Location = new Point(597, 426);
+            btnAgregar.Location = new Point(762, 426);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(75, 23);
             btnAgregar.TabIndex = 4;
@@ -101,14 +103,14 @@
             panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel1.Location = new Point(-3, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(687, 461);
+            panel1.Size = new Size(852, 461);
             panel1.TabIndex = 5;
             // 
             // AgregarEmpleadoForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(684, 461);
+            ClientSize = new Size(849, 461);
             Controls.Add(gbEmpleadosTrabajo);
             Controls.Add(btnAgregar);
             Controls.Add(btnVerTareasEmpleado);
@@ -116,7 +118,8 @@
             Controls.Add(cbEmpleados);
             Controls.Add(gbTareasTrabajo);
             Controls.Add(panel1);
-            MinimumSize = new Size(700, 500);
+            MaximumSize = new Size(865, 500);
+            MinimumSize = new Size(865, 500);
             Name = "AgregarEmpleadoForm";
             Text = "AgregarEmpleadoForm";
             Load += AgregarEmpleadoForm_Load;
