@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TrabajoForm));
             label1 = new Label();
             txtDispositivo = new TextBox();
             label2 = new Label();
@@ -131,6 +132,7 @@
             Controls.Add(label2);
             Controls.Add(txtDispositivo);
             Controls.Add(label1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximumSize = new Size(450, 330);
             MinimumSize = new Size(450, 330);
             Name = "TrabajoForm";

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Empleados));
             lblInfoEmpleados = new Label();
             dgvEmpleados = new DataGridView();
             btnAgregar = new Button();
@@ -108,6 +109,7 @@
             Controls.Add(btnAgregar);
             Controls.Add(lblInfoEmpleados);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MinimumSize = new Size(800, 500);
             Name = "Empleados";
             Text = "Empleados";

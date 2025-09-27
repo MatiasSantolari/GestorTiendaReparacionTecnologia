@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ClienteForm));
             btnGuardar = new Button();
             txtNombre = new TextBox();
             txtTel = new TextBox();
@@ -107,6 +108,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximumSize = new Size(430, 240);
             MinimumSize = new Size(430, 240);
             Name = "ClienteForm";

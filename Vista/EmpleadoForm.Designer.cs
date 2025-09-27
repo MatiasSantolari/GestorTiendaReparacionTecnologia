@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmpleadoForm));
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -183,6 +184,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximumSize = new Size(430, 350);
             MinimumSize = new Size(430, 350);
             Name = "EmpleadoForm";

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             menuStrip1 = new MenuStrip();
             mnuEmpleados = new ToolStripMenuItem();
             mnuClientes = new ToolStripMenuItem();
@@ -144,6 +145,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(menuStrip1);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
             Name = "Home";

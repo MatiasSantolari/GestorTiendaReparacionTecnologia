@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             spLogin = new SplitContainer();
             btnLogin = new Button();
             lblPassword = new Label();
@@ -123,6 +124,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(384, 261);
             Controls.Add(spLogin);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximumSize = new Size(400, 300);
             MinimumSize = new Size(400, 300);
             Name = "Login";

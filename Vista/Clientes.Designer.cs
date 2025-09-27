@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Clientes));
             label1 = new Label();
             txtBusqueda = new TextBox();
             btnBuscar = new Button();
@@ -107,6 +108,7 @@
             Controls.Add(txtBusqueda);
             Controls.Add(label1);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MinimumSize = new Size(800, 500);
             Name = "Clientes";
             Text = "Clientes";

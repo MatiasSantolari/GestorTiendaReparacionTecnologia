@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TareaForm));
             label1 = new Label();
             txtNombre = new TextBox();
             label2 = new Label();
@@ -108,6 +109,7 @@
             Controls.Add(label2);
             Controls.Add(txtNombre);
             Controls.Add(label1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximumSize = new Size(460, 320);
             MinimumSize = new Size(460, 320);
             Name = "TareaForm";

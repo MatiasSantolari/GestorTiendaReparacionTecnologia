@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GenerarTicket));
             printDocument1 = new System.Drawing.Printing.PrintDocument();
             btnGenerarTicket = new Button();
             lblCliente = new Label();
@@ -92,6 +93,7 @@
             Controls.Add(lblDispositivo);
             Controls.Add(lblCliente);
             Controls.Add(btnGenerarTicket);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "GenerarTicket";
             Text = "GenerarTicket";
             Load += GenerarTicket_Load;

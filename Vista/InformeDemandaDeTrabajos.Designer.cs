@@ -34,6 +34,7 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InformeDemandaDeTrabajos));
             label1 = new Label();
             chartInformeCantidad = new System.Windows.Forms.DataVisualization.Charting.Chart();
             cbAno = new ComboBox();
@@ -141,6 +142,7 @@
             Controls.Add(chartInformeCantidad);
             Controls.Add(label1);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MinimumSize = new Size(820, 650);
             Name = "InformeDemandaDeTrabajos";
             Text = "InformeDemandaDeTrabajos";

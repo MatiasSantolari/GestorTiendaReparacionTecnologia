@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AgregarEmpleadoForm));
             gbTareasTrabajo = new GroupBox();
             cbEmpleados = new ComboBox();
             dgvTareasDeEmpleados = new DataGridView();
@@ -118,6 +119,7 @@
             Controls.Add(cbEmpleados);
             Controls.Add(gbTareasTrabajo);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximumSize = new Size(865, 500);
             MinimumSize = new Size(865, 500);
             Name = "AgregarEmpleadoForm";

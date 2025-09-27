@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AgregarTareaForm));
             cbTareas = new ComboBox();
             btnAgregar = new Button();
             SuspendLayout();
@@ -57,6 +58,7 @@
             ClientSize = new Size(384, 161);
             Controls.Add(btnAgregar);
             Controls.Add(cbTareas);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximumSize = new Size(400, 200);
             MinimumSize = new Size(400, 200);
             Name = "AgregarTareaForm";
