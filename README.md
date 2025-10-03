@@ -43,5 +43,4 @@ Permite llevar un control ordenado de los dispositivos ingresados, los problemas
 - **Interfaz gráfica (UI):** Windows Forms  
 - **ORM:** Entity Framework Core (Code First)  
 - **Base de datos:** SQL Server LocalDB  
-- **Otros:**  
-  - `System.Drawing` para impresión de tickets  
+- **Otros:** System.Drawing (para impresión de tickets)  
