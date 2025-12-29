@@ -66,7 +66,6 @@ namespace Vista
             {
                 string nombreMes = System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(d.Mes);
                 serieCantidad.Points.AddXY(d.Mes, d.Cantidad);
-                serieCantidad.AxisLabel = nombreMes;
             }
             chartInformeCantidad.ChartAreas[0].AxisX.Interval = 1; // mostrar todas las etiquetas
             chartInformeCantidad.ChartAreas[0].AxisX.LabelStyle.Angle = -45; // girar los nombres de meses si se superponen
@@ -84,7 +83,6 @@ namespace Vista
             {
                 string nombreMes = System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(d.Mes);
                 serieRecaudacion.Points.AddXY(d.Mes, d.Recaudacion);
-                serieRecaudacion.AxisLabel = nombreMes;
             }
             chartInformeRecaudacion.ChartAreas[0].AxisX.Interval = 1; // mostrar todas las etiquetas
             chartInformeRecaudacion.ChartAreas[0].AxisX.LabelStyle.Angle = -45; // girar los nombres de meses si se superponen
